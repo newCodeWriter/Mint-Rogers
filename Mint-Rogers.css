@@ -6,6 +6,10 @@
     font-family: 'garamond';
     src: url(/fonts/garamond.woff);
 }
+@font-face{
+    font-family: 'allura';
+    src: url(/fonts/allura.woff);
+}
 .float-left{
     float: left;
     padding: 1%; 
@@ -82,3 +86,55 @@ main > section > form > h2{
     text-underline-position: under !important;
 }
 /*rules for work*/
+#work-bg-img{
+    padding-bottom: 40%;
+    background-image: url('/images/work-img7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image{
+    padding-bottom: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    background-image: url('/images/work-img1.jpg');
+}
+.img2{
+    background-image: url('/images/work-img5.jpg');
+}
+.img3{
+    background-image: url('/images/work-img2.jpg');
+}
+.img4{
+    background-image: url('/images/work-img3.jpg');
+}
+.img5{
+    background-image: url('/images/work-img6.jpg');
+}
+.img6{
+    background-image: url('/images/work-img4.jpg');
+}
+.photo-name-left{
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-family: allura;
+    font-size: xxx-large;
+
+}
+.photo-name-right{
+    text-align: right;
+    font-family: allura;
+    font-size: xxx-large;
+    padding-top: 15%;
+    padding-right: 10%;
+}
+.dark{
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .photo-name-left, .photo-name-right{
+        font-size: xx-large;
+    }
+}
