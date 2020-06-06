@@ -52,7 +52,7 @@ li:first-child a{
     text-decoration: none;
     color: rgb(8, 173, 82);
 }
-.container{
+.carcontain{
     width: 100% !important;
     padding: 0 !important;
 }
@@ -62,3 +62,23 @@ footer{
     font-family: garamond;
     font-size: medium;
 }
+/*rules for contact page*/
+.contact-container{
+    font-family: garamond;
+    font-size: medium;
+}
+main > section > form > h2{
+    font-size: xxx-large;
+    color: rgb(8, 173, 82);
+    padding-bottom: 2%;
+}
+#contact-submit{
+    padding: 1% 2%;
+    border-style: outset;
+    margin-bottom: 3%;
+}
+.active-page{
+    text-decoration: underline rgb(8, 173, 82) !important;
+    text-underline-position: under !important;
+}
+/*rules for work*/
