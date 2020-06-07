@@ -114,6 +114,7 @@ main > section > form > h2{
 }
 .img6{
     background-image: url('/images/work-img4.jpg');
+    padding-bottom: 0% !important;
 }
 .photo-name-left{
     text-align: left;
@@ -130,11 +131,58 @@ main > section > form > h2{
     padding-top: 15%;
     padding-right: 10%;
 }
-.dark{
+.dark, .back-to-top > a{
     color: white;
+}
+.back-to-top{
+    padding-top: 40%;
+    padding-left: 2%; 
+    color: white; 
+}
+.back-to-top > a:hover{
+    color: white; 
+    text-decoration: none;
 }
 @media screen and (max-width: 600px){
     .photo-name-left, .photo-name-right{
         font-size: xx-large;
     }
+}
+/*rules for About page*/
+#hr-about{
+    border: 1px solid black; 
+    width: 3%; 
+    text-align: left; 
+    margin-left: 0;
+}
+#bio{
+    float: left; 
+    width: 50%;
+    padding-top: 5%; 
+    padding-left: 5%;
+    padding-right: 1%; 
+    margin: 0; 
+    font-family: garamond;
+    text-align: justify;
+}
+#bio-img{
+    float: right;
+    width: 45%;
+    height: 400px;
+    padding-top: 5%; 
+    padding-right: 6%;
+    margin: 0; 
+}
+#bio > p:first-child{
+    line-height: 3em;
+    font-size: 1.8em;
+}
+#bio > p:last-child{
+    line-height: 2em; 
+    font-size: 1.5em; 
+    padding-bottom: 10%;
+}
+#about-foot{
+    clear: both; 
+    background-color: rgb(233, 231, 231);
 }
